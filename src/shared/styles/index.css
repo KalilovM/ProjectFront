@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.page-width {
+  @apply max-w-[1200px] mx-auto my-0
+}
